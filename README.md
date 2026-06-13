@@ -1,11 +1,4 @@
----
-title: Synaptiq Hiring Engine
-emoji: 🧠
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-app_port: 7860
----
+
 # Synaptiq™ — The Hidden Ground Truth Hiring Intelligence Engine
 
 ### Reimagining Talent Discovery Beyond Traditional ATS Systems
