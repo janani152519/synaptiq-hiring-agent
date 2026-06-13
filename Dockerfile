@@ -25,7 +25,7 @@ COPY --chown=user . .
 
 # Copy built frontend static files into the backend static folder
 RUN mkdir -p backend/static
-COPY --chown=user --from=frontend-builder /build/frontend/dist ./backend/static
+COPY --chown=user --from=frontend-builder /build/backend/static ./backend/static
 
 # Expose the port Hugging Face Spaces expects
 EXPOSE 7860
