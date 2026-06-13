@@ -2,17 +2,17 @@
 team_name: "Team Synaptiq"
 
 primary_contact:
-  name: "Janani Prakash"
-  email: "janani.prakash@example.com"
-  phone: "+91-9999999999"
+  name: "Janani P"
+  email: "jananiprakash1527@gmail.com"
+  phone: "+91-8220174133"
 
 team_members:
-  - name: "Janani Prakash"
-    email: "janani.prakash@example.com"
-    role: "ML Engineer"
+  - name: "Janani P"
+    email: "jananiprakash1527@gmail.com"
+    role: "ML/ Data Engineer"
 
-github_repo: "https://github.com/jananiprakash/synaptiq-hiring-engine"
-sandbox_link: "https://huggingface.co/spaces/jananiprakash/synaptiq-hiring-engine"
+github_repo: "https://github.com/janani152519/synaptiq-hiring-agent"
+sandbox_link: ""
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
 
 compute:
@@ -28,10 +28,11 @@ compute:
 
 ai_tools_used:
   - "Claude"
+  - "Chatgpt"
   - "Gemini"
 
 ai_usage_summary: |
-  Used Claude/Gemini as agentic coding assistants to research, plan, write, and verify the multi-factor scoring pipeline, the backend API, and the dashboard frontend. No candidate data was transmitted externally.
+  Used Claude/Gemini/chatgpt as agentic coding assistants to research, plan, write, and verify the multi-factor scoring pipeline, the backend API, and the dashboard frontend. No candidate data was transmitted externally.
 
 methodology_summary: |
   Rule-based scoring system featuring dynamic TF-IDF and synonym-mapped semantic matching, tenure analysis (penalizing title-chasers), and comprehensive chronological anomaly scans to filter out honeypot profiles. Dynamic weight sliders and multi-factor integration are fully supported.
