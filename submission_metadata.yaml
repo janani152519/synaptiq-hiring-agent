@@ -1,0 +1,44 @@
+# Redrob Hackathon — Submission Metadata
+team_name: "Team Synaptiq"
+
+primary_contact:
+  name: "Janani Prakash"
+  email: "janani.prakash@example.com"
+  phone: "+91-9999999999"
+
+team_members:
+  - name: "Janani Prakash"
+    email: "janani.prakash@example.com"
+    role: "ML Engineer"
+
+github_repo: "https://github.com/jananiprakash/synaptiq-hiring-engine"
+sandbox_link: "https://huggingface.co/spaces/jananiprakash/synaptiq-hiring-engine"
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+
+compute:
+  platform: "Local Windows PC"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11.7"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "Claude"
+  - "Gemini"
+
+ai_usage_summary: |
+  Used Claude/Gemini as agentic coding assistants to research, plan, write, and verify the multi-factor scoring pipeline, the backend API, and the dashboard frontend. No candidate data was transmitted externally.
+
+methodology_summary: |
+  Rule-based scoring system featuring dynamic TF-IDF and synonym-mapped semantic matching, tenure analysis (penalizing title-chasers), and comprehensive chronological anomaly scans to filter out honeypot profiles. Dynamic weight sliders and multi-factor integration are fully supported.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

@@ -1,0 +1,11 @@
+backend/synaptiq.db
+**/__pycache__/
+*.pyc
+node_modules/
+.env
+backend/.env
+frontend/.env
+dist/
+build/
+.DS_Store
+laravel_reference/
