@@ -12,7 +12,7 @@ team_members:
     role: "ML/ Data Engineer"
 
 github_repo: "https://github.com/janani152519/synaptiq-hiring-agent"
-sandbox_link: ""
+sandbox_link: "https://huggingface.co/spaces/jananiprakash152519/synaptiq-hiring-engine"
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
 
 compute:
